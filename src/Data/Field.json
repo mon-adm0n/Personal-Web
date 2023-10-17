@@ -1,0 +1,223 @@
+{
+    "key": [
+        {
+            "id": 1,
+            "keys": "certifed"
+        },
+        {
+            "id": 2,
+            "keys": "archive"
+        },
+        {
+            "id": 3,
+            "keys": "community"
+        }
+    ],
+    "personal": [
+        {
+            "firstName": "Ahmad Saiful",
+            "lastName": "Huda",
+            "birth": "10-Oktober-1999",
+            "city": "Purwokerto",
+            "introduce": "I'm a recent graduate with a degree in Computer Engineering who has a strong interest and enthusiasm for the field of computer networking. I have a solid foundational knowledge of network concepts and protocols, and I am ready to kickstart my career as a Network Engineer. ",
+            "experience": "0",
+            "email": {
+                "primary": "saifulhuda020@gmail.com",
+                "secondary": "19102158@ittelkom-pwt.ac.id",
+                "subject": "Hiring",
+                "massages": ""
+            }
+        }
+    ],
+    "socialMedia": [
+        {
+            "name": "LinkedIn",
+            "icons": "fa6-brands:linkedin",
+            "url": "https://www.linkedin.com/in/ipulhuda/"
+        },
+        {
+            "name": "Instagram",
+            "icons": "fa6-brands:instagram",
+            "url": "https://www.instagram.com/_ipulhuda"
+        },
+        {
+            "name": "Github",
+            "icons": "fa6-brands:github",
+            "url": "https://github.com/mon-adm0n"
+        }
+    ],
+    "generalSkills": [
+        {
+            "icons": "bi:hdd-network-fill",
+            "name": "Networking Engineer",
+            "desc": "The training programs followed were LMS ID-Networks and Cisco Networking Academy which were carried out autodidactically"
+        },
+        {
+            "icons": "bi:cloud-fill",
+            "name": "Cloud Engineer",
+            "desc": "The external training programs that were participated in were Microsoft's Cloud Intelligence and AWS ReStart Batch 7"
+        }
+    ],
+    "softSkills": [
+        {
+            "id": 1,
+            "img": "managementtime.png",
+            "name": "Communication",
+            "desc": ""
+        },
+        {
+            "id": 2,
+            "img": "teamwork.png",
+            "name": "Team Work",
+            "desc": ""
+        },
+        {
+            "id": 3,
+            "img": "problemsolving.png",
+            "name": "Problem Solving",
+            "desc": ""
+        },
+        {
+            "id": 4,
+            "img": "communication.png",
+            "name": "Time Management",
+            "desc": ""
+        }
+    ],
+    "certifed": [
+        {
+            "id": 1,
+            "img": "Network-AdministratorBNSP.png",
+            "title": "Network Administrarot. CSA",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        },
+        {
+            "id": 2,
+            "img": "Ahmad-Saiful-Huda-Jaringan-Dasar-Sertifikat-Jaringan-Komputer-Dasar-LMS-ID-Networkers-1.png",
+            "title": "Network Basic",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        },
+        {
+            "id": 3,
+            "img": "Ahmad-Saiful-Huda-Cisco-Dasar-Sertifikat-Cisco-Dasar-LMS-ID-Networkers-1.png",
+            "title": "Cisco Basic",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        },
+        {
+            "id": 4,
+            "img": "Ahmad-Saiful-Huda-Mikrotik-Dasar-Sertifikat-Mikrotik-Dasar-LMS-ID-Networkers-1.png",
+            "title": "Mikrotik Basic",
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        },
+        {
+            "id": 5,
+            "img": "PowerPlatformFundamentals-1.png",
+            "title": "Power Platform Fundamentals",
+            "desc": " Lorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        },
+        {
+            "id": 6,
+            "img": "Cert3742024717-1.png",
+            "title": "Azure Data Fundamentals",
+            "desc": " Lorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        },
+        {
+            "id": 7,
+            "img": "Cert292232643267-1.png",
+            "title": "Azure AI Fundamentals",
+            "desc": "",
+            "url": "",
+            "date": "20 Juni 2022",
+            "dueDate": "20 Juni 2026"
+        }
+    ],
+    "archive": [
+        {
+            "id": 1,
+            "img": "HKI_HomeSweetHome.png",
+            "title": "HKI",
+            "desc": "Surat Pencatatan Ciptaan dari project Aplikasi Home Sweet Home: Let's Decorate dalam acara PKM-KC",
+            "date": "20 Agustus 2022"
+        },
+        {
+            "id": 2,
+            "img": "Jurnal-MediaInformatika22.2.23.png",
+            "title": "Jurnal",
+            "desc": "Penelitian Tugas Akhir mengenai QOS Load balancing pada PFsense dan OPNsense, tersedia di: https://journal.likmi.ac.id/index.php/media-informatika/article/view/196/98",
+            "date": "12 Agustus 2023"
+        },
+        {
+            "id": 3,
+            "img": "SertifikatPKM-1.png",
+            "title": "PKM-KC",
+            "desc": "Lolos Pendanaan dan melanjutkan PKP2",
+            "date": "26 Juni 2022"
+        },
+        {
+            "id": 4,
+            "img": "19102158_AHMADSAIFULHUDA_Certificate-1.png",
+            "title": "Program Kampus Merderka Intelligence Cloud",
+            "desc": "Program yang diselenggarakan oleh Kemenbud atau disebut yang biasa Kampus Merdeka menyediakan banyak bidang, salah satunya yaitu Intelligence Cloud dengan mitra PT. Mari Belajar Indonesia Cerdas yang berkolaborasi dengan Microsoft.",
+            "date": "26 Januari 2022"
+        },
+        {
+            "id": 5,
+            "img": "skripsi.png",
+            "title": "Archive Tugas Akhir",
+            "desc": "Tugas Akhir dengan judul: Analisis Perbandingan QOS pada PFsense dan OPNsense menggunakan Metode Load Balancing",
+            "date": "26 Agustus 2023"
+        }
+    ],
+    "community": [
+        {
+            "id": 1,
+            "img": "MBKM",
+            "name": "MariBelajar",
+            "desc": "Diselenggarakan oleh PT. Mari Belajar Indonesia Cerdas, dengan fokus pembahsan Azure Cloud Fundamentals",
+            "date": "20 Agustus 2022"
+        },
+        {
+            "id": 2,
+            "img": "AWS ReStart Batch 7",
+            "name": "AWS ReStart Batch 7",
+            "desc": "Diselanggarakan oleh PT. Orbit Ventura Indonesia, dengan fokus pembahsan AWS Fundamentals",
+            "date": "12 September 2023"
+        }
+    ],
+    "project": [
+        {
+            "id": 1,
+            "img": "mobil.io.png",
+            "url": "https://repository.ittelkom-pwt.ac.id/7840/",
+            "title": "Penerapan Microsoft Azure Pada Aplikasi Mobil.io Untuk Prediksi Harga Mobil",
+            "desc": "This growth in public interest has encouraged an increase in the car sales business with a competitive market. Every car sales showroom tries to increase their sales so that they are able to exist and compete with other competitors. One of the ways to attract buyers is by providing advertisements through digital media. Viewed from the customer's point of view, the provision of advertising by market players also presents its own problem, namely too much information on offers circulating. This will make it difficult for customers to decide on a suitable car. Instead of receiving random product offers, customers can be provided with personalized offers or recommendations. Personalization of car recommendations can be done by utilizing some data from the profile of prospective buyers, such as age, gender, and income. Through machine learning modeling, these variables can be used as predictor variables to be able to predict cars with relevant prices to offer. This project aims to build a mobile-based application that presents personalized cars based on the predictions of machine learning models. The application that is built is expected to be a solution that makes it easier for prospective buyers to choose a car.",
+            "date": "20 Agustus 2022"
+        },
+        {
+            "id": 2,
+            "img": "home sweet home.png",
+            "url": "https://www.figma.com/proto/JAhasNCgmSVyIXsmJEP6Yw/Web-Jastip-Import?type=design&node-id=2-3&t=9tWd870sJlq1iMsC-0&scaling=scale-down&page-id=0%3A1",
+            "title": "Aplikasi Home Sweet Home: Let's Decored",
+            "desc": "Project PKM 2022 menggunakan sistem Augmented Reality yang dibangun menggunakan Unity dan assets-assets modeling 3D yang dapat divisualisasikan secara langsung melalui smartphone dengan menggunakan camera belakang smartphone itu sendiri. sehingga objek terlihat nyata.",
+            "date": "12 September 2023"
+        }
+    ]
+}

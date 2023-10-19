@@ -84,8 +84,8 @@
         {
             "id": 1,
             "img": "Network-AdministratorBNSP.png",
-            "title": "Network Administrarot. CSA",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "title": "Network Administrator. CNA",
+            "desc": "The CNA certification measures the knowledge and skills of a network administrator in designing, configuring, managing, and maintaining an efficient and secure computer network. This certification aims to recognize the ability of a network administrator to effectively manage network infrastructure, optimize network performance, and safeguard information security.",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -94,7 +94,7 @@
             "id": 2,
             "img": "Ahmad-Saiful-Huda-Jaringan-Dasar-Sertifikat-Jaringan-Komputer-Dasar-LMS-ID-Networkers-1.png",
             "title": "Network Basic",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "desc": "The certification exam covers fundamental concepts of networking, types of networks, network models such as OSI, network hardware and software, and basic understanding of protocols and IP addresses. The Basic Computer Network Certificate aims to provide the foundational knowledge required for individuals to understand the fundamental principles in the world of computer networking.",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -103,7 +103,7 @@
             "id": 3,
             "img": "Ahmad-Saiful-Huda-Cisco-Dasar-Sertifikat-Cisco-Dasar-LMS-ID-Networkers-1.png",
             "title": "Cisco Basic",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "desc": "This certification covers fundamental topics in networking, including network concepts, network protocols, network hardware, subnetting, and network troubleshooting. Candidates are tested on their understanding of the basics of networking. It aims to measure the foundational knowledge of a professional in the field of computer networking. This is the first step in the broader Cisco certification pathway.",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -112,7 +112,7 @@
             "id": 4,
             "img": "Ahmad-Saiful-Huda-Mikrotik-Dasar-Sertifikat-Mikrotik-Dasar-LMS-ID-Networkers-1.png",
             "title": "Mikrotik Basic",
-            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "desc": "LThe MikroTik Basic Certificate serves as a strong foundation for those who want to understand and work with MikroTik products. It can help validate fundamental knowledge and skills in network management using MikroTik devices.",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -121,7 +121,7 @@
             "id": 5,
             "img": "PowerPlatformFundamentals-1.png",
             "title": "Power Platform Fundamentals",
-            "desc": " Lorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "desc": "The Power Platform Fundamentals certification aims to recognize individuals' understanding of the fundamentals of the Power Platform. This includes knowledge of core tools within the Power Platform, such as Power Apps (for building applications), Power Automate (for workflow automation), Power BI (for data analysis), and Power Virtual Agents (for creating conversational bots).",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -130,7 +130,7 @@
             "id": 6,
             "img": "Cert3742024717-1.png",
             "title": "Azure Data Fundamentals",
-            "desc": " Lorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit ametLorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum, natus aspernatur dolor ex tempora voluptates, sint nostrum error maiores adipisci officia odio culpa pariatur laudantium corporis obcaecati! Et, dolores!",
+            "desc": "The Azure Data Fundamentals certification, offered by Microsoft, is designed to measure foundational knowledge of technology and data services on the Azure platform. This certification helps individuals understand the basic concepts of data processing, data management, and data analysis using various services and tools available on Microsoft Azure.",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -139,7 +139,7 @@
             "id": 7,
             "img": "Cert292232643267-1.png",
             "title": "Azure AI Fundamentals",
-            "desc": "",
+            "desc": "The Azure AI Fundamentals certification offered on the Certiport platform is a certification exam designed to assess an individual's knowledge and understanding of the fundamental concepts of artificial intelligence (AI) related to the services and solutions offered by Microsoft Azure. This certification aims to validate an individual's comprehension of the basic principles of AI and the utilization of AI services on the Azure platform. It also assists certification candidates in understanding how to utilize AI tools and technologies to address business challenges.",
             "url": "",
             "date": "20 Juni 2022",
             "dueDate": "20 Juni 2026"
@@ -186,14 +186,14 @@
         {
             "id": 1,
             "img": "mbkm.png",
-            "name": "MariBelajar",
+            "title": "Intelligence Cloud Track",
             "desc": "Diselenggarakan oleh PT. Mari Belajar Indonesia Cerdas, dengan fokus pembahsan Azure Cloud Fundamentals",
             "date": "20 Agustus 2022"
         },
         {
             "id": 2,
             "img": "HKI_HomeSweetHome.png",
-            "name": "AWS ReStart Batch 7",
+            "title": "AWS ReStart Batch 7",
             "desc": "Diselanggarakan oleh PT. Orbit Ventura Indonesia, dengan fokus pembahsan AWS Fundamentals",
             "date": "12 September 2023"
         }

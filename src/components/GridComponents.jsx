@@ -10,7 +10,7 @@ export function GridSkills() {
 
   useEffect(() => {
     axios
-      .get("assets/Data/data.json") // Ganti dengan path yang sesuai
+      .get(data) 
       .then((response) => {
         setGeneralSkills(response.data.generalSkills);
         setIsLoading(false);

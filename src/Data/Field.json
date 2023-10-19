@@ -46,18 +46,6 @@
             "url": "https://github.com/mon-adm0n"
         }
     ],
-    "generalSkills": [
-        {
-            "icons": "bi:hdd-network-fill",
-            "name": "Networking Engineer",
-            "desc": "The training programs followed were LMS ID-Networks and Cisco Networking Academy which were carried out autodidactically"
-        },
-        {
-            "icons": "bi:cloud-fill",
-            "name": "Cloud Engineer",
-            "desc": "The external training programs that were participated in were Microsoft's Cloud Intelligence and AWS ReStart Batch 7"
-        }
-    ],
     "softSkills": [
         {
             "img": "managementtime.png",
@@ -185,14 +173,14 @@
     "community": [
         {
             "id": 1,
-            "img": "mbkm.png",
+            "img": "mbkmmaribelajar.png",
             "title": "Intelligence Cloud Track",
             "desc": "Diselenggarakan oleh PT. Mari Belajar Indonesia Cerdas, dengan fokus pembahsan Azure Cloud Fundamentals",
             "date": "20 Agustus 2022"
         },
         {
             "id": 2,
-            "img": "HKI_HomeSweetHome.png",
+            "img": "awsrestart.png",
             "title": "AWS ReStart Batch 7",
             "desc": "Diselanggarakan oleh PT. Orbit Ventura Indonesia, dengan fokus pembahsan AWS Fundamentals",
             "date": "12 September 2023"

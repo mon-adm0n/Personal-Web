@@ -201,7 +201,7 @@
     "project": [
         {
             "id": 1,
-            "img": "HKI_HomeSweetHome.png",
+            "img": "mobile.io.png",
             "url": "https://repository.ittelkom-pwt.ac.id/7840/",
             "title": "Penerapan Microsoft Azure Pada Aplikasi Mobil.io Untuk Prediksi Harga Mobil",
             "desc": "This growth in public interest has encouraged an increase in the car sales business with a competitive market. Every car sales showroom tries to increase their sales so that they are able to exist and compete with other competitors. One of the ways to attract buyers is by providing advertisements through digital media. Viewed from the customer's point of view, the provision of advertising by market players also presents its own problem, namely too much information on offers circulating. This will make it difficult for customers to decide on a suitable car. Instead of receiving random product offers, customers can be provided with personalized offers or recommendations. Personalization of car recommendations can be done by utilizing some data from the profile of prospective buyers, such as age, gender, and income. Through machine learning modeling, these variables can be used as predictor variables to be able to predict cars with relevant prices to offer. This project aims to build a mobile-based application that presents personalized cars based on the predictions of machine learning models. The application that is built is expected to be a solution that makes it easier for prospective buyers to choose a car.",
@@ -210,10 +210,10 @@
         {
             "id": 2,
             "img": "HKI_HomeSweetHome.png",
-            "url": "https://www.figma.com/proto/JAhasNCgmSVyIXsmJEP6Yw/Web-Jastip-Import?type=design&node-id=2-3&t=9tWd870sJlq1iMsC-0&scaling=scale-down&page-id=0%3A1",
+            "url": "https://drive.google.com/drive/folders/1WElcgBpNQBa5dXAow__D9iMPmcKL-npp?usp=sharing",
             "title": "Aplikasi Home Sweet Home: Let's Decored",
             "desc": "Project PKM 2022 menggunakan sistem Augmented Reality yang dibangun menggunakan Unity dan assets-assets modeling 3D yang dapat divisualisasikan secara langsung melalui smartphone dengan menggunakan camera belakang smartphone itu sendiri. sehingga objek terlihat nyata.",
-            "date": "12 September 2023"
+            "date": "12 November 2022"
         }
     ]
 }

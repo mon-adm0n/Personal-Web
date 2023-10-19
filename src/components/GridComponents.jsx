@@ -10,7 +10,7 @@ export function GridSkills() {
 
   useEffect(() => {
     axios
-      .get(data) 
+      .get(data)
       .then((response) => {
         setGeneralSkills(response.data.generalSkills);
         setIsLoading(false);
@@ -85,9 +85,9 @@ function ClassGrid({ img, title, text, date, url }) {
           {/* <p className="py-2">{date}</p> */}
           <p className="font-normal line-clamp-2 md:line-clamp-3">{text}</p>
           <div className="grid grid-cols-1 gap-4 pt-6">
-            <Btn className="bg-secondary ">
-              <a href={url}>Check</a>
-            </Btn>
+            <a href={url}>
+              <Btn className="bg-secondary ">Check</Btn>
+            </a>
           </div>
         </div>
       </div>
@@ -152,12 +152,13 @@ export function Testimoni() {
 
   useEffect(() => {
     // Mengambil data testimoni menggunakan Axios Fetch
-    axios.get('/assets/Data/data.json')
+    axios
+      .get("/assets/Data/data.json")
       .then((response) => {
-        setTestimoniData(response.data['softSkills']);
+        setTestimoniData(response.data["softSkills"]);
       })
       .catch((error) => {
-        console.error('Error fetching testimoni data:', error);
+        console.error("Error fetching testimoni data:", error);
       });
   }, []);
 

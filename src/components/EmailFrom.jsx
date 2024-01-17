@@ -2,17 +2,14 @@ import React from 'react';
 
 function EmailButton() {
   const handleEmailClick = () => {
-    // Gantilah URL dengan URL endpoint server backend Anda untuk mengirim email.
     const emailEndpoint = '/api/send-email';
 
-    // Gantilah dataEmail dengan data email yang sesuai.
     const dataEmail = {
       to: 'alamat-email-tujuan@example.com',
       subject: 'Subjek Email',
       message: 'Isi pesan email Anda di sini.',
     };
 
-    // Kirim permintaan POST ke server backend untuk mengirim email.
     fetch(emailEndpoint, {
       method: 'POST',
       headers: {

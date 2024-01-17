@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      body {
+        height: 100%;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #6a6a6a;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea {
+        color: #262626;
+        vertical-align: baseline;
+        margin: .2em;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #a9a9a9;
+        background-color: #fff;
+        box-sizing: border-box;
+        padding: 2px .5em;
+        appearance: none;
+        border-radius: 0;
+      }
+      input:focus {
+        border-color: #646464;
+        box-shadow: 0 0 1px 0 #a2a2a2;
+        outline: 0;
+      }
+      button {
+        padding: .5em 1em;
+        border: 1px solid;
+        border-radius: 3px;
+        min-width: 6em;
+        font-weight: 400;
+        font-size: .8em;
+        cursor: pointer;
+      }
+      button.primary {
+        color: #fff;
+        background-color: rgb(47, 113, 178);
+        border-color: rgb(34, 103, 173);
+      }
+      .message-container {
+        height: 500px;
+        width: 600px;
+        padding: 0;
+        margin: 10px;
+      }
+      .logo {
+        background: url(%%IMAGE:logo_v3_fguard_app%%) no-repeat left center;
+        height: 267px;
+        object-fit: contain;
+      }
+      table {
+        background-color: #fff;
+        border-spacing: 0;
+        margin: 1em;
+      }
+      table > tbody > tr > td:first-of-type:not([colspan]) {
+        white-space: nowrap;
+        color: rgba(0,0,0,.5);
+      }
+      table > tbody > tr > td:first-of-type {
+        vertical-align: top;
+      }
+      table > tbody > tr > td {
+        padding: .3em .3em;
+      }
+      .field {
+        display: table-row;
+      }
+      .field > :first-child {
+        display: table-cell;
+        width: 20%;
+      }
+      .field.single > :first-child {
+        display: inline;
+      }
+      .field > :not(:first-child) {
+        width: auto;
+        max-width: 100%;
+        display: inline-flex;
+        align-items: baseline;
+        virtical-align: top;
+        box-sizing: border-box;
+        margin: .3em;
+      }
+      .field > :not(:first-child) > input {
+        width: 230px;
+      }
+      .form-footer {
+        display: inline-flex;
+        justify-content: flex-start;
+      }
+      .form-footer > * {
+        margin: 1em;
+      }
+      .text-scrollable {
+        overflow: auto;
+        height: 150px;
+        border: 1px solid rgb(200, 200, 200);
+        padding: 5px;
+        font-size: 1em;
+      }
+      .text-centered {
+        text-align: center;
+      }
+      .text-container {
+        margin: 1em 1.5em;
+      }
+      .flex-container {
+        display: flex;
+      }
+      .flex-container.column {
+        flex-direction: column;
+      }
+    </style>
+    <title>
+      Firewall Authentication
+    </title>
+  </head>
+  <body>
+    <div class="message-container">
+      <div class="logo">
+      </div>
+      <h1 class="text-centered">
+        Terms and Disclaimer Agreement
+      </h1>
+      <form action="%%HEMAIL_ACTION%%" method="%%HEMAIL_METHOD%%">
+        <input type="hidden" name="%%REDIRID%%" value="%%PROTURI%%">
+        <input type="hidden" name="%%MAGICID%%" value="%%MAGICVAL%%">
+        <p class="text-scrollable text-container">
+          You are about to access Internet content that is not under the control of the network access provider. The network access provider is therefore not responsible for any of these sites, their content or their privacy policies. The network access provider and its staff do not endorse nor make any representations about these sites, or any information, software or other products or materials found there, or any results that may be obtained from using them. If you decide to access any Internet content, you do this entirely at your own risk and you are responsible for ensuring that any accessed material does not infringe the laws governing, but not exhaustively covering, copyright, trademarks, pornography, or any other material which is slanderous, defamatory or might cause offence in any other way.
+        </p>
+        <div class="text-container">
+          <input type="checkbox" name="agree" id="ft_ad" required="required" onclick="document.getElementById('ft_un').disabled = !this.checked;">
+          <label for="ft_ad">
+            I accept the Terms and Disclaimer Agreement
+          </label>
+        </div>
+        <div class="flex-container text-container column">
+          <p>
+            <b>
+              Please enter your Email address to continue.
+            </b>
+          </p>
+          <div class="field single">
+            <label for="ft_un">
+              Email
+            </label>
+            <div>
+              <input name="%%USERNAMEID%%" id="ft_un" type="email" autocorrect="off" autocapitalize="off" disabled>
+            </div>
+          </div>
+          <div class="form-footer">
+            <button class="primary" type="submit" id="ft_ci">
+              Continue
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      var def_msg = "Please enter your Email address to continue.";
+      var cb = get("ft_ad");
+      var un = get("ft_un");
+      var ci = get("ft_ci");
+      var note = get("note");
+      var adl = get("ft_adl");
+      if (cb && un && note && adl) {
+        cb.onclick = cb_click;
+        cb_click.apply(cb, [def_msg]);
+      }
+      function get(x) {
+        return document.getElementById(x);
+      }
+      function tc(elm, cn, tg) {
+        if (!elm) return;
+        if (tg) elm.className += " " + cn;
+        else elm.className = elm.className.replace(cn,'');
+      }
+      function cb_click(msg) {
+        var en = !this.checked;
+        un.disabled = en;
+        ci.disabled = en;
+        tc(adl, "hl", en);
+        tc(note, "hl", !en);
+        if(typeof msg === "string") {
+          note.innerHTML = msg;
+        }
+        else {
+          note.innerHTML = def_msg;
+        }
+      }
+    </script>
+  </body>
+</html>

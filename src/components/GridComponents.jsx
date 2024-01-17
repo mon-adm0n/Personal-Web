@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Btn } from "./Components";
 import { Icon } from "@iconify/react";
-import data from "../Data/Field.json";
 import axios from "axios";
 
 export function GridSkills() {
@@ -10,13 +9,13 @@ export function GridSkills() {
 
   useEffect(() => {
     axios
-      .get(data)
+      .get("/assets/Data/Field.json")
       .then((response) => {
         setGeneralSkills(response.data.generalSkills);
         setIsLoading(false);
       })
       .catch((error) => {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching dataa:", error);
         setIsLoading(false);
       });
   }, []);
@@ -37,7 +36,7 @@ export function GridSkills() {
       ) : (
         generalSkills.map((item, index) => (
           <div
-            key={index}
+            key={item.name}
             className={`h-64 border border-secondary/30 w-11/12 cursor-pointer md:w-full mx-auto py-4 px-4 lg:px-6 hover:bg-secondary  shadow-xl rounded group ${colClass}`}
             data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
             data-aos-offset="-100"
@@ -76,7 +75,7 @@ function ClassGrid({ img, title, text, date, url }) {
             <img
               src={`/assets/${img}`}
               alt={img}
-              className="w-full h-48 duration-300 shadow h-90 brightness-90 md:h-64 lg:h-72 rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transform"
+              className="w-full h-full duration-300 shadow md:h-90 brightness-90 md:h-64 lg:h-72 rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transform"
             />
           </div>
         </div>
@@ -153,7 +152,7 @@ export function Testimoni() {
   useEffect(() => {
     // Mengambil data testimoni menggunakan Axios Fetch
     axios
-      .get("/assets/Data/data.json")
+      .get("/assets/Data/Field.json")
       .then((response) => {
         setTestimoniData(response.data["softSkills"]);
       })
@@ -186,14 +185,14 @@ export function GridChild({ title, text, img, id, onModalOpen }) {
     <div
       key={img}
       onClick={openModal}
-      className="p-2 pb-4 rounded shadow cursor-pointer brightness-90 bg-main/80 text-white/70 dark:bg-primary/10 dark:text-primary/70 lg:h-full"
+      className="pb-4 shadow cursor-pointer brightness-90 bg-main/80 text-white/70 dark:bg-primary/10 dark:text-primary/70 lg:h-full"
     >
       <img
         src={`/assets/${img}`}
         alt=""
         className="w-full rounded md:h-2/3 lg:h-3/4 xl:h-4/5"
       />
-      <div className="mx-2 text-sm">
+      <div className="mx-2 text-sm md:text-base">
         <h4 className="flex py-2 font-semibold">{title}</h4>
         <p className="leading-tight tracking-tight text-justify line-clamp-2 lg:line-clamp-2 xl:line-clamp-2">
           {text}
@@ -287,14 +286,20 @@ export function Grid({ data }) {
           <div
             key={data[0].id}
             onClick={() => openModal(data[0].id)}
-            className="pb-4 rounded-lg shadow brightness-95 bg-main/80 text-white/70 dark:bg-primary/10 dark:text-primary/70 xl:h-full"
+            className="pb-2 rounded-lg shadow brightness-95 bg-main/80 text-white/70 dark:bg-primary/10 dark:text-primary/70 xl:h-full"
           >
             <img
               src={`/assets/${data[0].img}`}
-              alt=""
-              className="w-full p-2 bg-cover md:h-2/4 lg:h-2/3 xl:h-4/5 rounded-xl"
+              alt={data[0].img}
+              className={`w-full ${
+                data.length < 3 ? "p-0 rounded pb-2" : "rounded-xl"
+              } bg-cover md:h-2/4 lg:h-2/3 xl:h-4/5 `}
             />
-            <div className="mx-4 mt-4 mb-3 text-lg leading-snug">
+            <div
+              className={`mx-4 mb-3 ${
+                data.length < 3 ? "text-sm md:text-base" : "text-lg mt-4"
+              } leading-snug`}
+            >
               <h4 className="flex font-semibold">{data[0].title}</h4>
               <p className="pt-2 text-justify line-clamp-3 md:line-clamp-6 lg:line-clamp-7 xl:line-clamp-3">
                 {data[0].desc}

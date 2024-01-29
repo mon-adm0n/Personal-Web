@@ -12,7 +12,7 @@ function Header() {
   const fullName = firstName + " " + lastName;
 
   return (
-    <div className="w-full pt-8 mx-auto md:py-24 lg:pt-28 xl:pt-48">
+    <div className="w-full pt-8 mx-auto md:py-24 lg:pt-28 xl:pt-36">
       <div className="absolute hidden w-full z-00 md:block">
         {/* Bullet */}
         <div className="grid grid-flow-col grid-cols-3 ">

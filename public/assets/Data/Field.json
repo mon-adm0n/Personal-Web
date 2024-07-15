@@ -210,7 +210,7 @@
         {
             "id": 2,
             "img": "Lab-FortiAP.png",
-            "url": "https://onedrive.live.com/view.aspx?resid=F0E588C4255E25E9%2110359&id=documents&wd=target%28NETWORKING.one%7CA7D2600C-3043-4141-B567-B27254A355E6%2FFortiGate%20-WLC%7C57AF4482-AD99-478F-9DA7-4ABA31D002E3%2F%29onenote:https://d.docs.live.net/f0e588c4255e25e9/Networking/NETWORKING.one#FortiGate%20-WLC&section-id={A7D2600C-3043-4141-B567-B27254A355E6}&page-id={57AF4482-AD99-478F-9DA7-4ABA31D002E3}&end",
+            "url": "",
             "title": "Lab 2-Tier FortiAP",
             "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 2-Tier, menggunakan switch cisco 9200, Fortiswitch 101E dan FortiAP. Bertujuan untuk implementasi sebuah project sesungguhnya dimana menerapkan 2 SSID menggunakan vlan yang berbeda untuk tagging ke FortiAP",
             "date": "20 November 2023"

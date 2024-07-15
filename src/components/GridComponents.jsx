@@ -72,12 +72,12 @@ function GridCard({ img, title, text, url }) {
         <img
           src={`/assets/${img}`}
           alt={img}
-          className="h-full w-full object-cover brightness-50  hover:brightness-75 dark:brightness-75 duration-500"
+          className="h-full object-cover brightness-50  hover:brightness-75 dark:brightness-75 duration-500"
         />
       </div>
       <div className="p-4 text-justify text-neutral-700">
         <a href={url} className="hover:cursor-help">
-          <h3 className="text-lg font-semibold mb-2 truncate">{title}</h3>
+          <h3 className="text-lg font-semibold mb-2 ">{title}</h3>
         <p className="text-sm line-clamp-3 md:line-clamp-4">{text}</p>
         </a>
       </div>

@@ -64,15 +64,15 @@ export function GridSkills() {
 function GridCard({ img, title, text, url }) {
   return (
     <div
-      className="max-w-md md:max-w-sm mt-8 rounded-tl-3xl rounded-br-3xl  mx-auto shadow-md overflow-hidden h-96 duration-300 cursor-pointer hover:scale-105 bg-white/75 dark:bg-white/50"
+      className="max-w-md md:max-w-sm mt-8 rounded-tl-3xl rounded-br-3xl  mx-auto shadow-md overflow-hidden duration-300 cursor-pointer hover:scale-105 bg-white/75 dark:bg-white/50"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <div className="h-64 md:h-56 flex items-center justify-center bg-slate-300">
+      <div className="h-56 flex items-center justify-center bg-slate-300">
         <img
           src={`/assets/${img}`}
           alt={img}
-          className="h-full object-cover brightness-50  hover:brightness-75 dark:brightness-75 duration-500"
+          className="h-full w-full object-cover brightness-50  hover:brightness-75 dark:brightness-75 duration-500"
         />
       </div>
       <div className="p-4 text-justify text-neutral-700">

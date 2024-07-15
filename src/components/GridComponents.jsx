@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Btn } from "./Components";
 import { Icon } from "@iconify/react";
 import axios from "axios";
 
@@ -62,54 +61,49 @@ export function GridSkills() {
   );
 }
 
-function ClassGrid({ img, title, text, date, url }) {
+function GridCard({ img, title, text, url }) {
   return (
     <div
-      className="flex justify-center pb-8 mx-auto"
+      className="max-w-md md:max-w-sm mt-8 rounded-tl-3xl rounded-br-3xl  mx-auto shadow-md overflow-hidden h-96 duration-300 cursor-pointer hover:scale-105 bg-white/75 dark:bg-white/50"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <div className="w-11/12 grid-cols-2 gap-4 p-4 rounded-lg shadow-lg md:grid bg-secondary/10 md:w-11/12 lg:w-4/5">
-        <div className="col-span-1 mx-auto">
-          <div>
-            <img
-              src={`/assets/${img}`}
-              alt={img}
-              className="w-full h-full duration-300 shadow md:h-90 brightness-90 md:h-64 lg:h-72 rounded-tl-3xl rounded-br-3xl hover:scale-110 hover:transform"
-            />
-          </div>
-        </div>
-        <div className="w-full col-span-1 px-2 pt-4 mx-auto text-lg">
-          <h2 className="font-semibold truncate">{title}</h2>
-          {/* <p className="py-2">{date}</p> */}
-          <p className="font-normal line-clamp-2 md:line-clamp-3">{text}</p>
-          <div className="grid grid-cols-1 gap-4 pt-6">
-            <a href={url}>
-              <Btn className="bg-secondary ">Check</Btn>
-            </a>
-          </div>
-        </div>
+      <div className="h-64 md:h-56 flex items-center justify-center bg-slate-300">
+        <img
+          src={`/assets/${img}`}
+          alt={img}
+          className="h-full w-full object-cover brightness-50  hover:brightness-75 dark:brightness-75 duration-500"
+        />
+      </div>
+      <div className="p-4 text-justify text-neutral-700">
+        <a href={url} className="hover:cursor-help">
+          <h3 className="text-lg font-semibold mb-2 truncate">{title}</h3>
+        <p className="text-sm line-clamp-3 md:line-clamp-4">{text}</p>
+        </a>
       </div>
     </div>
   );
 }
 
-//Sertifikat Grid
-export function GridCertifed({ data }) {
+//Portofolio Grid
+export function ContentCard({ data }) {
   return (
-    <>
-      {data.map((item, index) => (
-        <ClassGrid
-          key={index}
-          img={item.img}
-          title={item.title}
-          text={item.desc}
-          url={item.url}
-        />
-      ))}
-    </>
+    <div className="min-h-screen pt-28 py-8 px-8 md:px-16 lg:px-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+        {data.map((item, index) => (
+          <GridCard
+            key={index}
+            img={item.img}
+            title={item.title}
+            text={item.desc}
+            url={item.url}
+          />
+        ))}
+      </div>
+    </div>
   );
 }
+
 
 // Grid Testimoni
 export function GridTestimoni(props) {

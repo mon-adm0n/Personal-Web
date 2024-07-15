@@ -14,9 +14,8 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
 
   const navItems = [
     { link: "Overview", path: "index", scrol: () => scrollToSection(0) },
-    { link: "About Me", path: "home", scrol: () => scrollToSection(1200) },
-    { link: "Project", path: "project", scrol: () => scrollToSection(2200) },
-    { link: "Archive", path: "archive", scrol: () => scrollToSection(3400) },
+    { link: "Project", path: "project", scrol: () => scrollToSection(660) },
+    { link: "Archive", path: "archive", scrol: () => scrollToSection(2400) },
   ];
 
   return (

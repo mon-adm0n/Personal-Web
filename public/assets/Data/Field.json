@@ -17,9 +17,8 @@
         {
             "firstName": "Ahmad Saiful",
             "lastName": "Huda",
-            "birth": "10-Oktober-1999",
-            "city": "Purwokerto",
-            "introduce": "I'm a recent graduate with a degree in Computer Engineering who has a strong interest and enthusiasm for the field of computer networking. I have a solid foundational knowledge of network concepts and protocols, and I am ready to kickstart my career as a Network Engineer. ",
+            "city": "Jakarta",
+            "introduce": "I graduated from Informatics Engineering and started my career as a network engineer. I have a strong interest and enthusiasm for the networking field. I have a strong basic knowledge of enterprise networking concepts and protocols, and have a passion for learning further and developing my skills in managing and designing efficient networks. ",
             "experience": 1,
             "email": {
                 "primary": "saifulhuda020@gmail.com",
@@ -199,8 +198,89 @@
         }
     ],
     "project": [
+
         {
             "id": 1,
+            "img": "Lab-pkt1.png",
+            "url": "https://drive.google.com/drive/folders/1qK5fmdSoe_BQh04wTL86fOA194ooMOEw?usp=sharing",
+            "title": "Lab 3-Tier Network Enterprise",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 3-Tier, menggunakan switch L2/L3 dengan menerapkan LACP, routing OSPF, VLAN, Switching, DHCP Server, DNS Server.",
+            "date": "20 April 2024"
+        },
+        {
+            "id": 2,
+            "img": "Lab-FortiAP.png",
+            "url": "https://onedrive.live.com/view.aspx?resid=F0E588C4255E25E9%2110359&id=documents&wd=target%28NETWORKING.one%7CA7D2600C-3043-4141-B567-B27254A355E6%2FFortiGate%20-WLC%7C57AF4482-AD99-478F-9DA7-4ABA31D002E3%2F%29onenote:https://d.docs.live.net/f0e588c4255e25e9/Networking/NETWORKING.one#FortiGate%20-WLC&section-id={A7D2600C-3043-4141-B567-B27254A355E6}&page-id={57AF4482-AD99-478F-9DA7-4ABA31D002E3}&end",
+            "title": "Lab 2-Tier FortiAP",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 2-Tier, menggunakan switch cisco 9200, Fortiswitch 101E dan FortiAP. Bertujuan untuk implementasi sebuah project sesungguhnya dimana menerapkan 2 SSID menggunakan vlan yang berbeda untuk tagging ke FortiAP",
+            "date": "20 November 2023"
+        },
+        {
+            "id": 3,
+            "img": "Lab-SDWAN-Fundamental.png",
+            "url": "https://drive.google.com/drive/folders/1qK5fmdSoe_BQh04wTL86fOA194ooMOEw?usp=sharing",
+            "title": "Lab SDWAN-IPsec Fundamentals",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam tentang implementasi dan konfigurasi SD-WAN, IPsec, menggunakan routing static. Topologi jaringan dalam lab ini melibatkan empat kantor cabang yang terhubung melalui jaringan internet publik dengan menggunakan tunnel IPsec untuk keamanan dan BGP untuk routing dinamis. SD-WAN akan digunakan untuk mengoptimalkan jalur pengiriman data antara kantor cabang dan kantor pusat.",
+            "date": "20 Juni 2024"
+        },
+        {
+            "id": 4,
+            "img": "HA-Fortigate.png",
+            "url": "https://drive.google.com/",
+            "title": "Lab Test Swing HA (Active-Pasive) Fortigate ",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam tentang implementasi dan konfigurasi High Availbility Fortigate.",
+            "date": "27 Juni 2024"
+        },
+        {
+            "id": 5,
+            "img": "Lab-FTNT-SDWAN.png",
+            "url": "https://drive.google.com/",
+            "title": "Lab SDWAN-IPsec and BGP Fundamentals",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam tentang implementasi dan konfigurasi SD-WAN, IPsec, dan BGP menggunakan MikroTik RouterOS 7 dan FortiGate 7.0.11. Topologi jaringan dalam lab ini melibatkan empat kantor cabang yang terhubung melalui jaringan internet publik dengan menggunakan tunnel IPsec untuk keamanan dan BGP untuk routing dinamis. SD-WAN akan digunakan untuk mengoptimalkan jalur pengiriman data antara kantor cabang dan kantor pusat.",
+            "date": "25 Juni 2024"
+        },    
+        {
+            "id": 6,
+            "img": "Lab-glsb.png",
+            "url": "",
+            "title": "Lab GLSB FortiADC",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Load Balancer FortiADC, menggunakan FortiADC VM, Fortigate VM dan Ubuntu (Webserver). Bertujuan untuk implementasi sebuah project sesungguhnya dimana menggunakan 2 server backend",
+            "date": "20 Maret 2024"
+        },
+        {
+            "id": 7,
+            "img": "sharing-harden.png",
+            "url": "https://www.canva.com/design/DAGK7fPZMhY/SH6C-x_Vt273UHuicu14Hg/view?utm_content=DAGK7fPZMhY&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+            "title": "Sharing Knowledge Hardening Policy Fortigate Basic",
+            "desc": "Materi mengenai langkah-langkah hardening policy pada Fortigate untuk pemula, diperuntukan untuk user/engineer baru dalam rangka handover.",
+            "date": "14 Juli 2024"
+        },
+        {
+            "id": 8,
+            "img": "automation/remote-ssh.png",
+            "url": "",
+            "title": "Automation Scraping Inventory Via Remote SSH",
+            "desc": "Program sederhana menggunakan python untuk scraping data seperti inventory, log, seluruh command system agar mempermudah dalam mendapatkan data pada banyak perangkat dengan 1 perintah. Membantu juga dalam pelaporan Preventive Maintenance",
+            "date": "10 Juli 2024"
+        }, 
+        {
+            "id": 9,
+            "img": "automation/interface-cisco.png",
+            "url": "",
+            "title": "Generator Report Cisco Interface to Excel",
+            "desc": "Program sederhana menggunakan python untuk scraping data interface cisco dan diconvert kedalam file Excel",
+            "date": "02 Juli 2024"
+        },
+        {
+            "id": 10,
+            "img": "automation/report-pm.png",
+            "url": "",
+            "title": "Generator Report Inventory to Docx",
+            "desc": "Program sederhana menggunakan python untuk scraping data Inventori, Log, Backup config dan diconvert ke docx sebagai report. Membantu dan mempercepat dalam pelaporan Preventive Maintenance",
+            "date": "10 Maret 2024"
+        },
+        {
+            "id": 11,
             "img": "mobile.io.png",
             "url": "https://repository.ittelkom-pwt.ac.id/7840/",
             "title": "Penerapan Microsoft Azure Pada Aplikasi Mobil.io Untuk Prediksi Harga Mobil",
@@ -208,7 +288,7 @@
             "date": "20 Agustus 2022"
         },
         {
-            "id": 2,
+            "id": 12,
             "img": "HKI_HomeSweetHome.png",
             "url": "https://drive.google.com/drive/folders/1WElcgBpNQBa5dXAow__D9iMPmcKL-npp?usp=sharing",
             "title": "Aplikasi Home Sweet Home: Let's Decored",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../App.css";
 import DialogBox, { Svg } from "./Animations";
 import { Btn } from "./Components";
@@ -10,6 +10,43 @@ function Header() {
   const [open, setOpen] = useState(false);
   const { firstName, lastName } = data.personal[0];
   const fullName = firstName + " " + lastName;
+  const toRotate = [
+    fullName,
+    "Network Engineer",
+    "IT Network Support",
+    "IT Network Implementation",
+  ];
+  const [index, setIndex] = useState(0);
+  const [text, setText] = useState(toRotate[0]);
+
+  const [typingEffect, setTypingEffect] = useState(true);
+
+  useEffect(() => {
+    let charIndex = 0;
+    let timer;
+
+    const typeText = () => {
+      setText((prevText) => toRotate[index].substring(0, charIndex));
+      charIndex++;
+
+      if (charIndex > toRotate[index].length) {
+        clearInterval(timer);
+        setTimeout(() => {
+          setTypingEffect(false);
+          setTimeout(() => {
+            setIndex((prevIndex) => (prevIndex + 1) % toRotate.length);
+            setTypingEffect(true);
+          }, 500); // Waktu untuk fade out
+        }, 1000); // Waktu tunggu setelah mengetikkan semua teks
+      }
+    };
+
+    if (typingEffect) {
+      timer = setInterval(typeText, 100); // Kecepatan ketikan
+    }
+
+    return () => clearInterval(timer);
+  }, [index, typingEffect]);
 
   return (
     <div className="w-full pt-8 mx-auto md:py-24 lg:pt-28 xl:pt-36">
@@ -81,7 +118,9 @@ function Header() {
                 data-aos-duration="500"
               >
                 <h1 className="text-xl font-bold md:text-2xl lg:text-3xl">
-                  <span className="text-secondary">Hi! I'm {fullName}</span>
+                  <span className="text-secondary typing-text">
+                    Hi! I'm {text}
+                  </span>
                   <br />
                   <p className="text-2xl md:pt-2 md:text-3xl lg:text-5xl">
                     Great to see you.{" "}

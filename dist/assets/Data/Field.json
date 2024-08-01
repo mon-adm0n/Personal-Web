@@ -201,20 +201,20 @@
 
         {
             "id": 1,
-            "img": "Lab-pkt1.png",
-            "url": "https://drive.google.com/drive/folders/1qK5fmdSoe_BQh04wTL86fOA194ooMOEw?usp=sharing",
-            "title": "Lab 3-Tier Network Enterprise",
-            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 3-Tier, menggunakan switch L2/L3 dengan menerapkan LACP, routing OSPF, VLAN, Switching, DHCP Server, DNS Server.",
+            "img": "Lab-ADVPN-SDWAN.png",
+            "url": "",
+            "title": "Lab ADVPN SD-WAN",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam mengenai SD-WAN advance dengan arsitektur HUB-Spoke menggunakan routing BGP untuk advertise network local masing-masing site. Topologi jaringan dalam lab ini melibatkan 3 kantor cabang dan terdapat server Apps yang terkoneksi Fortigate sebagai SDWAN. SD-WAN akan digunakan untuk mengoptimalkan jalur pengiriman data antara kantor cabang dan kantor pusat.",
             "date": "20 April 2024"
         },
         {
             "id": 2,
-            "img": "Lab-FortiAP.png",
-            "url": "",
-            "title": "Lab 2-Tier FortiAP",
-            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 2-Tier, menggunakan switch cisco 9200, Fortiswitch 101E dan FortiAP. Bertujuan untuk implementasi sebuah project sesungguhnya dimana menerapkan 2 SSID menggunakan vlan yang berbeda untuk tagging ke FortiAP",
-            "date": "20 November 2023"
-        },
+            "img": "Lab-FTNT-SDWAN.png",
+            "url": "https://drive.google.com/",
+            "title": "Lab SDWAN-IPsec and BGP Fundamentals",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam tentang implementasi dan konfigurasi SD-WAN, IPsec, dan BGP menggunakan MikroTik RouterOS 7 dan FortiGate 7.0.11. Topologi jaringan dalam lab ini melibatkan empat kantor cabang yang terhubung melalui jaringan internet publik dengan menggunakan tunnel IPsec untuk keamanan dan BGP untuk routing dinamis. SD-WAN akan digunakan untuk mengoptimalkan jalur pengiriman data antara kantor cabang dan kantor pusat.",
+            "date": "25 Juni 2024"
+        }, 
         {
             "id": 3,
             "img": "Lab-SDWAN-Fundamental.png",
@@ -230,15 +230,7 @@
             "title": "Lab Test Swing HA (Active-Pasive) Fortigate ",
             "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam tentang implementasi dan konfigurasi High Availbility Fortigate.",
             "date": "27 Juni 2024"
-        },
-        {
-            "id": 5,
-            "img": "Lab-FTNT-SDWAN.png",
-            "url": "https://drive.google.com/",
-            "title": "Lab SDWAN-IPsec and BGP Fundamentals",
-            "desc": "Lab ini dirancang untuk memberikan pemahaman mendalam tentang implementasi dan konfigurasi SD-WAN, IPsec, dan BGP menggunakan MikroTik RouterOS 7 dan FortiGate 7.0.11. Topologi jaringan dalam lab ini melibatkan empat kantor cabang yang terhubung melalui jaringan internet publik dengan menggunakan tunnel IPsec untuk keamanan dan BGP untuk routing dinamis. SD-WAN akan digunakan untuk mengoptimalkan jalur pengiriman data antara kantor cabang dan kantor pusat.",
-            "date": "25 Juni 2024"
-        },    
+        },   
         {
             "id": 6,
             "img": "Lab-glsb.png",
@@ -257,6 +249,22 @@
         },
         {
             "id": 8,
+            "img": "Lab-pkt1.png",
+            "url": "https://drive.google.com/drive/folders/1qK5fmdSoe_BQh04wTL86fOA194ooMOEw?usp=sharing",
+            "title": "Lab 3-Tier Network Enterprise",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 3-Tier, menggunakan switch L2/L3 dengan menerapkan LACP, routing OSPF, VLAN, Switching, DHCP Server, DNS Server.",
+            "date": "20 April 2024"
+        },
+        {
+            "id": 9,
+            "img": "Lab-FortiAP.png",
+            "url": "",
+            "title": "Lab 2-Tier FortiAP",
+            "desc": "Lab ini dirancang untuk memberikan pemahaman mengenai Network Enterprise 2-Tier, menggunakan switch cisco 9200, Fortiswitch 101E dan FortiAP. Bertujuan untuk implementasi sebuah project sesungguhnya dimana menerapkan 2 SSID menggunakan vlan yang berbeda untuk tagging ke FortiAP",
+            "date": "20 November 2023"
+        },
+        {
+            "id": 10,
             "img": "automation/remote-ssh.png",
             "url": "",
             "title": "Automation Scraping Inventory Via Remote SSH",
@@ -264,7 +272,7 @@
             "date": "10 Juli 2024"
         }, 
         {
-            "id": 9,
+            "id": 11,
             "img": "automation/interface-cisco.png",
             "url": "",
             "title": "Generator Report Cisco Interface to Excel",
@@ -272,7 +280,7 @@
             "date": "02 Juli 2024"
         },
         {
-            "id": 10,
+            "id": 12,
             "img": "automation/report-pm.png",
             "url": "",
             "title": "Generator Report Inventory to Docx",
@@ -280,7 +288,7 @@
             "date": "10 Maret 2024"
         },
         {
-            "id": 11,
+            "id": 13,
             "img": "mobile.io.png",
             "url": "https://repository.ittelkom-pwt.ac.id/7840/",
             "title": "Penerapan Microsoft Azure Pada Aplikasi Mobil.io Untuk Prediksi Harga Mobil",
